@@ -1,0 +1,9 @@
+#Structured mesh generator for cylinders in a channel
+
+#The script createCylinders.py creates a file 'cyl' in the geometry/ folder. This 'cyl' file is inculded in the 'pin.geo' file in the same folder which is the GMSH
+#input file format.
+
+#If you want to make modifications to the geometry make them in the 'params.py' file. If you want to make modifications to GMSH make modifications to 'pin.geo' file. 
+
+
+#The output of GMSH is a '.msh' file which can easily be converted to OpenFOAM mesh format by 'GmshToFoam'
