@@ -1,1 +1,10 @@
 Script for generating a Wigley hull mesh
+
+To obtain the grids used in Peltonen et al. "The ghost fluid method for OpenFOAM: a compoarative study in marine
+context", set the params.py parameter 'multiplier' to
+
+multiplier = 0.6 -> Mesh1
+multiplier = 1.0 -> Mesh2
+multiplier = 1.5 -> Mesh3
+
+
